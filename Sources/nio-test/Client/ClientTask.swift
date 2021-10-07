@@ -16,7 +16,7 @@ public class ClientTask {
     private weak var channel: Channel?
 
 
-    fileprivate init(
+    init(
         client: ConnectClient,
         configurePipeline: @escaping PipelineSetup,
         request: ClientRequest,
